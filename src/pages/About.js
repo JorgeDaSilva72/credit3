@@ -1,13 +1,15 @@
 import React from "react";
+import Navigation from "../components/Navigation";
 
 
 const About = () => {
   return (
     <div>
-      
-      <h1>À propos</h1>
+      <Navigation/>
+      <h1>Qui somme nous ?</h1>
       <br />
       <p>
+        MeilleurTauxBanque.com est ........
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
         similique rerum. Totam delectus unde asperiores in dolorem. Itaque natus
         dolore provident fugit enim, porro quasi expedita labore fuga, ea

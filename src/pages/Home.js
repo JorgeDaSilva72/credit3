@@ -1,4 +1,6 @@
 import React from "react";
+import Navigation from "../components/Navigation";
+import Logo from "../components/Logo";
 import GreenSection from "../components/GreenSection";
 import RedSection from "../components/RedSection";
 import BlueSection from "../components/BlueSection";
@@ -8,6 +10,7 @@ import Footer from "../components/Footer";
 const Home = () => {
   return (
     <div className="home">
+      <Navigation />
       <GreenSection/>
       <RedSection/>
       <BlueSection/>
