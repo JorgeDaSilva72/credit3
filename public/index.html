@@ -57,7 +57,8 @@
         "script",
         "https://connect.facebook.net/en_US/fbevents.js"
       );
-      fbq("init", "4110490405698099");
+      fbq("init", "4110490405698099");import FacebookTracking from 'react-tracking-facebook';
+FacebookTracking.initialize('TRACKING_ID');
       fbq("track", "PageView");
     </script>
     <noscript

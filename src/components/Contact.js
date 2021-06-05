@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import FacebookTracking from 'react-tracking-facebook';
+FacebookTracking.initialize("4110490405698099");
 
 
 const Contact = () => {
@@ -74,6 +76,7 @@ const Contact = () => {
       .send('service_x4kjrlp', templateId, variables,)
       .then((res) => {
         successMessage();
+        FacebookTracking.trackCustomEvent('track', 'Purchase');        
         setName("");
         setCompany("");
         setPhone("");
